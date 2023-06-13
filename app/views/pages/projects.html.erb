@@ -1,17 +1,97 @@
 
+<h1 class="text-center">Proyectos</h1>
+<div class="row d-flex justify-content-around">
 
-<div class="row">
-
-    <h1 class="text-center">Proyectos</h1>
-    <div class="card p-0" style="width: 18rem;">
-        <%= image_tag 'img_1.jpg', class:'w-100' %>
+    
+    <div class="card p-0 col-md-4 m-2" style="width: 18rem;">
+        <%= image_tag 'img_1.jpg', class:'w-100 h-75' %>
         <div class="card-body">
-          <h5 class="card-title">Viajando por Chile</h5>
-          <p class="card-text">Se realizo el desafio de viajando por Chile, donde utilizamos estructura html, css, componentes de bootstrap.</p>
-          <a href="https://github.com/hcoagithub/viajes-chile" class="btn btn-primary">Ver repositorio</a>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#img_1">
+            ver mas
+        </button>
         </div>
-      </div>
+        
+  
+        <!-- Modal -->
+        <div class="modal fade" id="img_1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Viajando por Chile</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Se realizo el desafio de viajando por Chile, donde utilizamos estructura html, css, componentes de bootstrap.</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
     </div>
+ 
+    <div class="card p-0 col-md-4 m-2" style="width: 18rem;">
+        <%= image_tag 'img_2.jpg', class:'w-100 h-75' %>
+        <div class="card-body">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#img_2">
+                ver mas
+            </button>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="img_2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Ricomida</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   <p class="card-text">Se realizo el desafio de Ricomida, donde utilizamos estructura html, css, componentes de bootstrap y jquery.</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card p-0 col-md-4 m-2" style="width: 18rem;">
+        <%= image_tag 'img_3.jpg', class:'w-100 h-75' %>
+        <div class="card-body">
+          
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#img_3">
+                ver mas
+            </button>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="img_3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Meet&Coffe</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="card-text">Se realizo el desafio de Meet&Coffe, donde utilizamos estructura html, css, componentes de bootstrap.</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 
